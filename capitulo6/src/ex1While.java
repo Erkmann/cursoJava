@@ -13,5 +13,7 @@ public class ex1While {
         }
 
         System.out.printf("Acesso Permitido");
+
+        sc.close();
     }
 }

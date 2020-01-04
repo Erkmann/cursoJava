@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class For {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int vezes = sc.nextInt();
+        int soma = 0;
+
+        for(int i = 0; i < vezes; i++){
+            soma += sc.nextInt();
+        }
+
+        System.out.println(soma);
+
+        sc.close();
+    }
+}
